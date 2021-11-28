@@ -33,5 +33,15 @@ else if (dayOfWeek == 7)
 }
 else
 {
+    Console.WriteLine("Мы не знаем такого значения");
+}
+
+string[] dayOfWeek = {"Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"};
+if((dayOfWeek) > 0 && (dayOfWeek) <= dayOfWeek.Lengh)
+{
+    Console.WriteLine(dayOfWeek[dayOfWeek - 1]);
+}
+else
+{
     Console.WriteLine("Мф не знаем такого значения");
 }
