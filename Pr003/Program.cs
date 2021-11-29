@@ -43,5 +43,5 @@ if((dayOfWeek) > 0 && (dayOfWeek) <= dayOfWeek.Lengh)
 }
 else
 {
-    Console.WriteLine("Мф не знаем такого значения");
+    Console.WriteLine("Мы не знаем такого значения");
 }
