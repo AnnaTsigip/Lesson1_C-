@@ -7,7 +7,7 @@ int dayOfWeek = int.Parse(Console.ReadLine());
 Console.WriteLine();
 if (dayOfWeek < 6)
 {
-    Console.WriteLine("Будний день");
+    Console.WriteLine("Будний день, не выходной");
 }
 else
 {
