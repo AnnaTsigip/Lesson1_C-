@@ -10,9 +10,9 @@ int quarterNumber = new Random().Next(1, 4);
 Console.WriteLine("Номер четверти: ");
 Console.WriteLine(quarterNumber);
 
-if (quarterNumber == 1)
+if (quarterNumber == 1) Console.WriteLine("X и Y от 0 до + бесконечности");
 {
-    Console.WriteLine("X и Y от 0 до + бесконечности");
+    ;
 }
 if (quarterNumber == 2)
 {

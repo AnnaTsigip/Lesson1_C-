@@ -11,24 +11,13 @@ int X = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите координаты точки Y, кроме 0: ");
 int Y = int.Parse(Console.ReadLine());
 
-if (X == 0 || Y == 0)
-{
-    Console.WriteLine("Значения 0 нет");
-}
+if (X == 0 || Y == 0) Console.WriteLine("Значения 0 нет");
 
-if (X > 0 && Y > 0)
-{
-    Console.WriteLine("Точка находится в первой четверти плоскости");
-}
-if (X < 0 && Y > 0)
-{
-    Console.WriteLine("Точка находится во второй четверти плоскости");
-}
-if (X < 0 && Y < 0)
-{
-    Console.WriteLine("Точка находится в третьей четверти плоскости");
-}
-if (X > 0 && Y < 0)
-{
-    Console.WriteLine("Точка находится в четвертой четверти плоскости");
-}
+if (X > 0 && Y > 0)  Console.WriteLine("Точка находится в первой четверти плоскости");
+
+if (X < 0 && Y > 0) Console.WriteLine("Точка находится во второй четверти плоскости");
+
+if (X < 0 && Y < 0)  Console.WriteLine("Точка находится в третьей четверти плоскости");
+
+if (X > 0 && Y < 0) Console.WriteLine("Точка находится в четвертой четверти плоскости");
+
