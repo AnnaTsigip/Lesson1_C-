@@ -16,5 +16,5 @@ while (number > 0)
     digit++;
 
 }
-
+Console.WriteLine(2);
 Console.WriteLine($"Данное число содержит {digit} цифр");
